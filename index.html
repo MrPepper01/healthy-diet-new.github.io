@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Healthy Diet</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="navbar">
+        <a href="#home">Inicio</a>
+        <a href="#diet">Dieta</a>
+        <a href="#about">Sobre Nosotros</a>
+        <a href="#contact">Contacto</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <div class="container">
+      <section id="home">
+        <h1>Bienvenido a Healthy Diet</h1>
+        <p>Mejora tu salud a través de una alimentación balanceada y consciente.</p>
+      </section>
+
+      <section id="diet">
+        <h2>Elige tu objetivo</h2>
+        <div class="options">
+          <button onclick="showMealCards('weight-loss')">Bajar de peso</button>
+          <button onclick="showMealCards('healthy')">Dieta saludable</button>
+          <button onclick="showMealCards('muscle-gain')">Ganar masa muscular</button>
+        </div>
+        <div id="meal-cards"></div>
+      </section>
+
+      <section id="about">
+        <h2>Sobre Nosotros</h2>
+        <p>Información sobre nuestro equipo y nuestra misión.</p>
+      </section>
+
+      <section id="contact">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para obtener más información!</p>
+      </section>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
